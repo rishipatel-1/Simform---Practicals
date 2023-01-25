@@ -168,6 +168,8 @@ border-radius: none !important;
 }
 .nav_header a{
     text-decoration: none;
+    justify-content: center;
+    display: flex;
     color: rgb(83, 83, 83);
     font-weight: bold;
     cursor: pointer;
