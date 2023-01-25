@@ -197,6 +197,8 @@ font-size: medium !important;
 }
 .nav_header a{
     text-decoration: none;
+    display: flex;
+    justify-content: center !important;
     color: rgb(83, 83, 83);
     font-weight: bold;
     cursor: pointer;
