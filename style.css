@@ -13,7 +13,10 @@
 .section-1{
 
 display: flex;
+}
 
+.section_2{
+justify-content: space-evenly;
 
 }
 .sec_div{
@@ -32,11 +35,11 @@ border-radius: none !important;
 .searchbar{
     display: flex;           
     flex-direction: row;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 40%;
-    margin-right: 150px;
-
-    
+    margin-right: 20px;
+   
+    width: 80% !important;
+    margin: 11px 20px;
+   margin-left: 5px !important;
 }
 
 .searchbar input[type=text] {
