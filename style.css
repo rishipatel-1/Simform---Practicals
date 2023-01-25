@@ -42,7 +42,7 @@ border-radius: none !important;
 .searchbar{
     display: flex;           
     flex-direction: row;
-    margin-right: 20px;
+    margin-right: 50px !important;
    
     width: 40% !important;
     margin: 11px 20px;
@@ -175,7 +175,7 @@ border-radius: none !important;
         border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
     }
 .flipkart-logo {
-    margin-left: 105px !important;
+    margin-left: 150px !important;
 }
     
 .div_2{
@@ -187,6 +187,22 @@ border-radius: none !important;
     align-items: center; 
     box-shadow: rgba(0, 0, 0, 0.15) 1.50px 1.50px 2.0px;
     padding: 10px 0px;
+}
+.login{
+    margin-left: 110px !important;
+}
+.login_button button{
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+
 }
 .div_2_1{
     min-width: 80%;
@@ -234,7 +250,7 @@ border-radius: none !important;
 }
 
 .Flipkart_logo {
-    margin-left: 10px;
+    margin-right: -100px;
 }
 .header_imges{
     width: 64px;
