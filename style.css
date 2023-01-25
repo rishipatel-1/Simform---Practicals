@@ -16,7 +16,7 @@ display: flex;
 }
 
 .section_2{
-justify-content: space-evenly;
+justify-content:flex-end
 
 }
 .sec_div{
@@ -24,8 +24,15 @@ background-color:#f1f3f6 !important;
 border-radius: none !important;
 }
 
-
-
+.login {
+    margin-left: 108px !important;
+    background: #fff;
+    color: #2874f0;
+    font-weight: 500;
+    border: none;
+    margin-right: 20px;
+    height: 36px;
+}
 .Explore_1{
     font-style: italic;
     font-size: 15px;
@@ -37,9 +44,10 @@ border-radius: none !important;
     flex-direction: row;
     margin-right: 20px;
    
-    width: 80% !important;
+    width: 40% !important;
     margin: 11px 20px;
-   margin-left: 5px !important;
+   margin-left: 2px !important;
+   margin-left: 10px !important;
 }
 
 .searchbar input[type=text] {
@@ -117,13 +125,42 @@ border-radius: none !important;
         
     
     }
-    .btnn button{
-        border: 0px;
-        border-radius: 2px;
+    .view_it{
+        background: #2874f0;
         color: #fff;
-        background-color: #2874f0;
-        padding: 6px 18px;
-        box-shadow: rgba(187, 187, 187, 0.24) 0px 3px 8px;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%) !important;
+        border: none;
+    ;
+        border-radius: 2px !important;
+        
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        transition: box-shadow .2s ease !important;
+        vertical-align: super;
+       
+        cursor: pointer !important;
+        outline: none !important;
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .btnn button{
+        background: #2874f0;
+        color: #fff;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+        border: none;
+        display: inline-block;
+        
+        
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: 500;
+    
+        vertical-align: super;
+       
+        cursor: pointer;
+        outline: none;
+        border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
     }
     .header_division{
         width: 70%;
@@ -135,9 +172,10 @@ border-radius: none !important;
         display: flex;
         vertical-align: center;
         align-items: center;
+        border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
     }
 .flipkart-logo {
-    margin-left: 10px !important;
+    margin-left: 105px !important;
 }
     
 .div_2{
@@ -173,15 +211,26 @@ border-radius: none !important;
     text-decoration: none;
     justify-content: center;
     display: flex;
-    color: rgb(83, 83, 83);
+   
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+
+    
     width: 100px;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
 }
 .nav_header a:hover{
     color: #2874f0;
+}
+.dropdown-item{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
 }
 
 .Flipkart_logo {
@@ -656,20 +705,31 @@ border-radius: none !important;
 }
 
 .catalog-6_body p {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
+  color: #979797;
 }
 
 
 .catalog-6_body b {
-    margin: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #212121;
+    font-family: Roboto,Arial,sans-serif;
 }
 
 .catalog-6_body span {
-    color: green;
-    margin-top: 3px;
-    padding-top: 4px;
-    padding-bottom: 4ox;
+    color: #388e3c;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
 }
+
 
 .catalog-01_head {
     
@@ -694,8 +754,12 @@ border-radius: none !important;
 
 
 }
+.nav-link{
+    display: flex;
+    flex-direction: row;
+}
 
-login_btn-1 {
+.login_btn-1 {
     background-color: #fff;
     border: none;
     height: 35px;
@@ -738,11 +802,7 @@ login_btn-1 {
     padding: 0;
     margin-left: 20px;
 }
-.up_arrow{
-margin-top: -2px;
 
-    
-}
 .tim-display{
     font-weight:600;
     color: grey;
@@ -788,4 +848,12 @@ font-size: 25px;
         display: none;
     } 
     
+}
+@media screen and (max-width:1000px){
+    .searchbar{
+        width: 95% !important;
+       
+       
+    
+    }
 }
