@@ -735,7 +735,7 @@ login_btn-1 {
 }
 .up_arrow{
 margin-top: -2px;
-position: absolute;
+
     
 }
 .tim-display{
@@ -776,4 +776,11 @@ font-size: 25px;
 
 .owl-stage-outer{
     height: 250px !important;
+}
+
+@media (max-width:600px){
+    .sec_div{
+        display: none;
+    } 
+    
 }
