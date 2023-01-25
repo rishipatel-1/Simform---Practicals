@@ -21,8 +21,130 @@ background-color:#f1f3f6 !important;
 border-radius: none !important;
 }
 
+
+
+.Explore_1{
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.searchbar{
+    display: flex;           
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+    margin-right: 150px;
+
+    
+}
+
+.searchbar input[type=text] {
+    background-color: #fff;
+    padding: 0 16px;
+    border-radius: 2px 0 0 0px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+.search_button{
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 0px 2px 2px 0px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+}
+.cart_1{
+    color: white;
+    text-decoration: none;
+}
+.more_1{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+}
+.head_1{
+    color: black;
+    text-decoration: none;
+}
+.login{
+    background:#fff;
+    color:#2874f0;
+    font-weight: 500;
+    border: none;
+    margin-right: 20px;
+}
+
+
+    .drop_it{
+        background-color:#0d6efd !important;
+        color: #fff !important;
+        border: none;
+        box-shadow: none;
+    }
+    
+
+.flipkart-logo {
+    margin-left: 10px !important;
+}
+    
+.div_2{
+    background-color: #fff;
+    width: 100%;
+    display: flex;           
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.50px 1.50px 2.0px;
+    padding: 10px 0px;
+}
+.div_2_1{
+    min-width: 80%;
+    display: flex;           
+    flex-direction: row;  
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.div_2_1::-webkit-scrollbar{
+    display: none;
+}
+
+
+.nav_header{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto,Arial,sans-serif;
+}
+.nav_header a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+}
+.nav_header a:hover{
+    color: #2874f0;
+}
+
 .Flipkart_logo {
     margin-left: 10px;
+}
+.header_imges{
+    width: 64px;
+    height: 64px;
 }
 
 .in-searchh{
